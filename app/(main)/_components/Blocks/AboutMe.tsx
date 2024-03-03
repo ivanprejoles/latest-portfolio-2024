@@ -41,9 +41,9 @@ export function AboutMe() {
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                 >
                     {isMobile ? (
-                        <>{"Passionate about real-world problem-solving through code, I've contributed to impactful project like personalized invoicing apps. Specializing in both Front-end and Backend development, I value collaboration and continuous learning, eager to create enduring applications together."}</>
+                        <>{"Passionate about problem-solving through code, I've contributed to impactful project like personalized invoicing apps. Specializing in both Front-end and Backend development, I value collaboration and continuous learning, eager to create enduring applications together."}</>
                     ) : (
-                        <>{"Starting with a passion for real-world problem-solving through code and evolving into a lifelong commitment, I've contributed to impactful project like a personalized invoicing app, specializing in both Front-end and Backend development, valuing collaborative environments and continuous learning, eager to connect and create enduring applications together."}</>
+                        <>{"Starting with a passion for problem-solving through code and evolving into a lifelong commitment, I've contributed to impactful project like a personalized invoicing app, specializing in both Front-end and Backend development, valuing collaborative environments and continuous learning, eager to connect and create enduring applications together."}</>
                     )}     
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
