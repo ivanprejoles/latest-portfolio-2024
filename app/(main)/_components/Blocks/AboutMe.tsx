@@ -52,14 +52,14 @@ export function AboutMe() {
                             src="/images/journey.jpg"
                             height={isMobile ? '100' : '500'}
                             width={isMobile ? '100' : '500'}
-                            className="h-40 md:h-60 w-full object-cover rounded-[22px] group-hover/card:shadow-xl hidden dark:block"
+                            className="h-40 md:h-60 w-full object-cover rounded-[22px] group-hover/card:shadow-xl block dark:hidden"
                             alt="thumbnail"
                         />
                         <Image
                             src="/images/night-journey.jpg"
                             height={isMobile ? '100' : '500'}
                             width={isMobile ? '100' : '500'}
-                            className="h-40 md:h-60 w-full object-cover rounded-[22px] group-hover/card:shadow-xl block dark:hidden"
+                            className="h-40 md:h-60 w-full object-cover rounded-[22px] group-hover/card:shadow-xl hidden dark:block"
                             alt="thumbnail"
                         />
                     </BackgroundGradient>
