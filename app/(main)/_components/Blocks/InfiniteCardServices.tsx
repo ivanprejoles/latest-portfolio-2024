@@ -17,12 +17,12 @@ export function InfiniteMovingCardsDemo() {
 
 const testimonials = [
   {
-    quote: "Proficient in Web Designing, with practical experience in server-side technologies like Node.js, NextJs and PHP. Familiar with socket.io for implementing real-time communication using WebSockets.",
+    quote: "Familiar with Web Designing, with practical experience in server-side technologies like Node.js, NextJs and PHP. Familiar with socket.io for implementing real-time communication using WebSockets.",
     name: "Card1",
     title: "Web Design",
   },
   {
-    quote: "Proficient in creating interactive and dynamic user interface for users using Javascript, CSS, HTML, Bootstrap, and other library especially in React.",
+    quote: "Comfortable in creating interactive and dynamic user interface for users using Javascript, Bootstrap, and other framework like Next JS on top of ReactJS",
     name: "Card2",
     title: "Front-end Design",
   },
