@@ -79,7 +79,7 @@ const MainPage = () => {
             ))}
           </div>
           <h2 className="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">
-            Let's Connect
+            {`Let's Connect`}
           </h2>
           <p className="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
             {"If you want to stay up to date with my work be sure to "}

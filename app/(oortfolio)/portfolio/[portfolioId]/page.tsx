@@ -61,7 +61,7 @@ const PortfolioPage = () => {
           </h2>
           <div className="flex flex-wrap items-start justify-start gap-8">
             {data.stacks.map((stack, key) => (
-              <div className="shrink-0 flex flex-col items-center gap-1">
+              <div key={key} className="shrink-0 flex flex-col items-center gap-1">
                 <div className="w-16 h-16 relative rounded-lg overflow-hidden">
                   {icons[stack]}
                 </div>
