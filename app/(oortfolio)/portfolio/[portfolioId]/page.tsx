@@ -1,6 +1,5 @@
 "use client";
 
-import MultiInputAnimation from "@/components/ui/multi-stack-animation";
 import icons from "@/lib/constant/icons";
 import portfolio from "@/lib/constant/portfolio";
 import Image from "next/image";
