@@ -4,12 +4,19 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/provider/theme-provider";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Profile",
-  description: "My Profile app for my portfolio.",
+  title: {
+    default: "Ivan",
+    template: "%s | Ivan",
+  },
+  description: "Full Stack Web Developer Portfolio.",
+  icons: {
+    icon: [{ url: "/favicon.ico", sizes: "any" }],
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -19,18 +26,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn(
-        inter.className,
-        'bg-[#EDEADE] dark:bg-black'
-      )}>
+      <body className={cn(inter.className, "bg-white dark:bg-black")}>
         <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem={false}
-            storageKey="theme-name"
-          >
-              {children}
-          </ThemeProvider>
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          storageKey="theme-name"
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

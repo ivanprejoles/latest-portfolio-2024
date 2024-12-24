@@ -32,7 +32,7 @@ export function SpotlightPreview() {
         />
         <div className="p-4 max-w-7xl  mx-auto relative z-10 w-full pt-20 md:pt-0 flex flex-col md:flex-row">
           <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-neutral-800 dark:text-transparent dark:bg-gradient-to-b dark:from-neutral-50 dark:to-neutral-400 dark:bg-opacity-50 lx:top-50">
-            Web Developer <br /> <TypewriterEffect words={words} />
+            Full Stack <br /> <TypewriterEffect words={words} />
           </h1>
         </div>
         <div className="flex flex-row justify-center gap-4 md:gap-[60px] w-full items-center">

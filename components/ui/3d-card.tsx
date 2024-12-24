@@ -9,6 +9,7 @@ import React, {
   useRef,
   useEffect,
 } from "react";
+import { HoverBorderGradient } from "./hover-border-gradient";
 
 const MouseEnterContext = createContext<
   [boolean, React.Dispatch<React.SetStateAction<boolean>>] | undefined
@@ -48,10 +49,7 @@ export const CardContainer = ({
   return (
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div
-        className={cn(
-          "py-10 flex items-center justify-center",
-          containerClassName
-        )}
+        className={cn("flex items-center justify-center", containerClassName)}
         style={{
           perspective: "1000px",
         }}
@@ -84,14 +82,16 @@ export const CardBody = ({
   className?: string;
 }) => {
   return (
-    <div
-      className={cn(
+    <HoverBorderGradient
+      containerClassName={cn(
         "sm:h-auto sm:w-auto h-96 w-96 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
         className
       )}
+      as="button"
+      className="dark:bg-black bg-white text-black dark:text-white items-center"
     >
       {children}
-    </div>
+    </HoverBorderGradient>
   );
 };
 
