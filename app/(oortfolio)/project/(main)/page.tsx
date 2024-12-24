@@ -44,7 +44,7 @@ const ProjectPage = () => {
                   <div className="flex relative gap-2 items-start justify-start mb-0 font-semibold tracking-tight text-neutral-800 hover:text-black dark:text-neutral-100 dark:hover:text-white text-lg">
                     <div
                       className="line-clamp-2"
-                      title="Building a Phone Integration Micro Frontend: Empowering Agencies with Seamless Telephony Management"
+                      title={value.title}
                     >
                       {value.title}
                     </div>
